@@ -251,6 +251,7 @@ a{
     width: 357px;
     border-radius: 20px;
     padding: 50px 20px;
+    max-height: 400px;
 }
 
 .category_filter_wrapper .title{
