@@ -603,6 +603,28 @@ a{
 .whatsapp{
 
 }
+.aboutus{
+    margin-top: 50px;
+}
+.aboutus .title{
+    font-family:'Inter', 'Arial Narrow', Arial, sans-serif;
+    font-size: 64px;
+    font-weight: 800;
+}
+.aboutus .subtitle{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: #1E1E1E;
+    line-height: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.aboutus .paragraph{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: #1E1E1E;
+    line-height: 20px;
+}
 @media (min-width: 1024px) {
     .category_list {
         grid-template-columns: repeat(6, 1fr); /* Large screens */
