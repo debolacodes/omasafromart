@@ -17,7 +17,7 @@
                 </div>
                 <div class="cart-icon"></div>
             </div>
-            <div class="">
+            <div class="contact_header">
                 <div class="title">Contact Us</div>
                 <div class="subtitle">We'd love to hear from you! Send us a message and we'll respond as soon as possible.</div>
                 
@@ -25,38 +25,40 @@
             
             <div class="contact_page">
              <!-- Contact form -->
-                <section aria-labelledby="contact-form">
+                <class class="contact-form" aria-labelledby="contact-form">
                     <h2 id="contact-form">Send a Message</h2>
 
                     <form action="#" method="post">
-                        <div>
-                        <label for="fullName">Full Name*</label><br />
-                        <input id="fullName" name="fullName" type="text" required />
+                        <div class="flex">
+                            <div class="form_row">
+                                <label for="fullName">Full Name*</label><br />
+                                <input id="fullName" name="fullName" type="text" required />
+                            </div>
+
+                            <div class="form_row">
+                                <label for="email">Email Address*</label><br />
+                                <input id="email" name="email" type="email" required />
+                            </div>
                         </div>
 
-                        <div>
-                        <label for="email">Email Address*</label><br />
-                        <input id="email" name="email" type="email" required />
+                        <div class="form_row">
+                            <label for="subject">Subject*</label><br />
+                            <input id="subject" name="subject" type="text" required />
                         </div>
 
-                        <div>
-                        <label for="subject">Subject*</label><br />
-                        <input id="subject" name="subject" type="text" required />
-                        </div>
-
-                        <div>
-                        <label for="message">Message*</label><br />
-                        <textarea id="message" name="message" rows="6" required></textarea>
+                        <div class="form_row">
+                            <label for="message">Message*</label><br />
+                            <textarea id="message" name="message" rows="6" required></textarea>
                         </div>
 
                         <p>
-                        <button type="submit">Send Message</button>
+                            <button type="submit" class="btn">Send Message</button>
                         </p>
                     </form>
-                </section>
+                </class>
 
                 <!-- Contact information -->
-                <aside aria-labelledby="contact-info">
+                <class class="contact-info" aria-labelledby="contact-info">
                     <h2 id="contact-info">Contact Information</h2>
                     <ul>
                         <li>
@@ -78,7 +80,7 @@
                         Sat: 10:00 AM – 4:00 PM
                         </li>
                     </ul>
-                </aside>
+                </class>
             </div>
 
             <div class="stay_updated">
@@ -93,7 +95,7 @@
             </div>
             
         </div>
-          <div class="footer">
+           <div class="footer">
             <div class="footer_contents">
                 <div class="footer_grid">
                     <div class="glow_logo"></div>
@@ -101,10 +103,7 @@
                     <div class="copyright">All rights reserved</div>
                     <div class="copyright flex"> We accept 
                         <div class="cardicons">
-                            <div class="icon visa"></div>
-                            <div class="icon mastercard"></div>
-                            <div class="icon express"></div>
-                            <div class="icon paypal"></div> 
+                             
                         </div>
                     </div>
                 </div>
@@ -125,11 +124,11 @@
                     <div class="footer_h2">Contact</div>
                     <div class="footer_p">+1 (224) 431-3658</div>
                     <div class="footer_p">Socials</div>
-                    <div class="footer_p">
-                        <div class="instagram"></div>
-                        <div class="facebook"></div>
-                        <div class="tiktok"></div>
-                        <div class="whatsapp"></div>
+                    <div class="socials">
+                        <div class="icon instagram"></div>
+                        <div class="icon facebook"></div>
+                        <div class="icon tiktok"></div>
+                        <div class="icon whatsapp"></div>
                     </div>
                 </div>
             </div>
